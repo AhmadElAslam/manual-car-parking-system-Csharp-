@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="560.0" prefWidth="370.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="AboutPage">
+   <children>
+      <ImageView fitHeight="572.0" fitWidth="382.0">
+         <image>
+            <Image url="@PNG/Background.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="85.0" fitWidth="85.0" layoutX="151.0" layoutY="490.0">
+         <image>
+            <Image url="@PNG/Logo.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="150.0" layoutY="7.0" text="About" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Button fx:id="Back" layoutX="10.0" layoutY="12.0" mnemonicParsing="false" onAction="#BackClick" prefHeight="25.0" prefWidth="48.0" style="-fx-background-radius: 10;" stylesheets="@BackButtonStyle.css" text="Back" />
+      <TextArea id="Text" fx:id="Text" editable="false" layoutX="11.0" layoutY="70.0" prefHeight="211.0" prefWidth="358.0" style="-fx-background-radius: 15;" stylesheets="@TextArea.css" text="Version 1.0&#10;&#10;This application was developed in 2019 by two Ort Braude College - Software Engineering students.&#10;&#10;For more information, please contact us:&#10;&#10;George Hanna - georgehanna1993@gmail.com&#10;Ahmad Saeed - ahmedelaslam9@gmail.com" wrapText="true">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </TextArea>
+   </children>
+</AnchorPane>

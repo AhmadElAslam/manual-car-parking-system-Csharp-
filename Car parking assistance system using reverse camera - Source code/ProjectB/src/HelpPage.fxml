@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="560.0" prefWidth="370.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="HelpPage">
+   <children>
+      <ImageView fitHeight="572.0" fitWidth="382.0">
+         <image>
+            <Image url="@PNG/Background.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="85.0" fitWidth="85.0" layoutX="151.0" layoutY="490.0">
+         <image>
+            <Image url="@PNG/Logo.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="167.0" layoutY="7.0" text="Help" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Button fx:id="Back" layoutX="10.0" layoutY="12.0" mnemonicParsing="false" onAction="#BackClick" prefHeight="25.0" prefWidth="48.0" style="-fx-background-radius: 10;" stylesheets="@BackButtonStyle.css" text="Back">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Button>
+      <TextArea editable="false" layoutX="21.0" layoutY="70.0" prefHeight="412.0" prefWidth="337.0" style="-fx-background-radius: 15;" stylesheets="@TextArea.css" text="Thanks for purchasing our product!&#10;&#10;Pairing:&#10;To get started, please press the button on the camera for 5 seconds to start &quot;Pariting Mode&quot;, when the light starts flashing, click on &quot;Connect&quot; on the main menu, to pair your camera to your device (make sure Bluetooth is turned on your device), and click &quot;ParkingAssistanceCamera&quot;.&#10;&#10;Start Parking:&#10;To start the parking assistance, follow the instructions on the &quot;Start Parking&quot; tab, it will give you instructions on how to turn your steering wheel, how many meters to go in reverse, etc.&#10;&#10;For more informations, please contact us." wrapText="true">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </TextArea>
+   </children>
+</AnchorPane>
